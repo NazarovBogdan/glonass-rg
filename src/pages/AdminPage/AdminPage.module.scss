@@ -40,6 +40,8 @@ main {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
     border-radius: 20px;
     background-color: white;
+    height: 463px;
+    overflow-y: auto;
 }
 
 .modal textarea, .modal input {

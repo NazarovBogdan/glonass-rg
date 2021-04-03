@@ -106,7 +106,7 @@ function MainPage(props) {
         },
         {
             bgImage: cardBg2,
-            text: 'Выездные бригады (передвижной сервисный центр), сервисный выезд до 48 часов',
+            text: 'Выездные бригады, сервисный выезд до 48 часов',
         },
         {
             bgImage: cardBg3,
@@ -271,7 +271,7 @@ function MainPage(props) {
                                 alt=""
                             />
                             <Paragraph>
-                                Программное обеспечение
+                                Решаемые задачи
                             </Paragraph>
                             <TargetButton tag="smooth" href="#software" offset={200}>
                                 Подробнее
@@ -384,14 +384,14 @@ function MainPage(props) {
                     <div className={style.software}>
                         <div className={style.softwareInner}>
                             <h2 className={style.softwareHeading}>
-                                <span className={style.softwareHeadingSpan}>Программное </span><br />обеспечение
+                                <span className={style.softwareHeadingSpan}>Решаемые </span><br />задачи
                             </h2>
                             <div className={style.itemsBox}>
                                 <div>
                                     <p
                                         className={style.itemsHeading}
                                     >
-                                        Пресекает нецелевое использование транспорта
+                                        предотвращение нецелевого использования техники
                                     </p>
                                     <p className={style.itemsParagraph}>
                                         Выезд из рабочей геозоны (или поездка вне маршрута)
@@ -401,7 +401,7 @@ function MainPage(props) {
                                     <p
                                         className={style.itemsHeading}
                                     >
-                                        контролирует расход топлива вашего транспорта
+                                        контроль расхода топлива (заправки, сливы)
                                     </p>
                                     <p className={style.itemsParagraph}>
                                         Посменный отчёт, включающий время движения TС и расход топлива
@@ -411,7 +411,7 @@ function MainPage(props) {
                                     <p
                                         className={style.itemsHeading}
                                     >
-                                        Следит за работой автопарка и водителей
+                                        контроль скоростного режима, повышение культуры вождения,повышение трудовой дисциплины
                                     </p>
                                     <p className={style.itemsParagraph}>
                                         Система позволяет следить в режиме реального времяни за водителями и техникой
@@ -421,10 +421,17 @@ function MainPage(props) {
                                     <p
                                         className={style.itemsHeading}
                                     >
-                                        Сокращает время доставки
+                                        контроль местоположения в онлайн режиме
                                     </p>
                                     <p className={style.itemsParagraph}>
                                         Система позволяет следить за тех. характеристиками трансорта в режиме реального времяни
+                                    </p>
+                                </div>
+                                <div>
+                                    <p
+                                        className={style.itemsHeading}
+                                    >
+                                        оптимизация маршрута,  сокращение затрат на ТО, сокращение пробега
                                     </p>
                                 </div>
                             </div>
