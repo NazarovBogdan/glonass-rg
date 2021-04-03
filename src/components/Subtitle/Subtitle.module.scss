@@ -1,0 +1,9 @@
+.subtitle {
+    // Scale
+    margin-bottom: 10px;
+    // Style
+    font-size: 14px;
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}

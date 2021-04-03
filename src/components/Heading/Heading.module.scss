@@ -1,0 +1,13 @@
+.heading {
+    // Scale
+    margin-bottom: 70px;
+    // Location
+    position: relative;
+    // Style
+    @media screen and (max-width: 1024px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    font-weight: 700;
+    text-align: center;
+}

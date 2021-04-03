@@ -1,0 +1,143 @@
+.preview {
+    // Scale
+    @media screen and (max-width: 1024px) {
+        width: calc(100vw - 20px);
+        min-height: 200px;
+        height: 100%;
+        padding: 30px 0 40px;
+        border-radius: 20px;
+    }
+    height: 670px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    // Location
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // Style
+    color: white;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    background-image: url("./images/content/about-us-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 0px 40px 80px rgba(0, 0, 0, .25);
+    text-shadow: 0 0 10px black;
+}
+
+.subtitle {
+    // Scale
+    margin-bottom: 20px;
+    // Location
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+    // Style
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.previewContent {
+    // Scale
+    width: 100%;
+}
+
+.previewContent p {
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 0;
+    }
+}
+
+.previewContent p:nth-child(5) {
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.previewContent h2 {
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 10px;
+    }
+}
+
+.previewContent hr {
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 10px;
+    }
+}
+
+// Task container
+
+.taskContainer {
+    // Location
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1em;
+    }
+    grid-column-gap: 1em;
+    grid-row-gap: 50px;
+    justify-items: center;
+}
+
+.taskItem {
+    // Location
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskItem img {
+    // Scale
+    height: 150px;
+    @media screen and (max-width: 1024px) {
+        height: 75px;
+    }
+    margin-bottom: 30px;
+}
+
+.taskItem p {
+    // Scale
+    width: 80%;
+    margin-bottom: 0;
+    // Style
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.seporator {
+    // Scale
+    height: 50px;
+    width: 1px;
+    // Location
+    display: none;
+    grid-column: 1/-1;
+    @media screen and (max-width: 1024px) {
+        display: block;
+        grid-column: 1;
+    }
+    // Style
+    border: none;
+    background-color: #006bcd;
+}
+
+
+.partnersContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.partnersContainer div {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

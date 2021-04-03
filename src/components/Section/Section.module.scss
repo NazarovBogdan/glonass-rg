@@ -1,0 +1,7 @@
+.section {
+    // Scale
+    margin-bottom: 170px;
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 70px;
+    }
+}

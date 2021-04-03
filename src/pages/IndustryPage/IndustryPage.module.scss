@@ -1,0 +1,26 @@
+main {
+    overflow: hidden;
+}
+
+.isDesk {
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.cardContainer {
+    // Scale
+    width: 100%;
+    // Location
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    @media screen and (max-width: 1024px) {
+    grid-template-columns: 1fr;
+    }
+    grid-gap: 40px;
+}
+
+.cardLink {
+    // Style
+    text-decoration: none;
+}

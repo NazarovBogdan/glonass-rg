@@ -1,0 +1,30 @@
+.targetButton {
+    // Scale
+    height: 50px;
+    min-width: 200px;
+    // Location
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // Style
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #023872;
+    color: #023872;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    // Animation
+    transition: .2s;
+}
+
+.targetButton:hover {
+    // Location
+    bottom: 2px;
+    // Style
+    box-shadow: 0px 9px 29px rgba(0, 0, 0, .25);
+    background-color: #023872;
+    color: white;
+}

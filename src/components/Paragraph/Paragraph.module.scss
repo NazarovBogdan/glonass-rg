@@ -1,0 +1,14 @@
+.paragraph {
+    // Scale
+    max-width: 600px;
+    margin-bottom: 50px;
+    // Location
+    position: relative;
+    // Style
+    font-size: 20px;
+    @media screen and (max-width: 1024px) {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    text-align: center;
+}
